@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	a := "2222"
+	a := "222"
 	s, sep := "", ""
 	for _, arg := range os.Args[1:] {
 		s += sep + arg
