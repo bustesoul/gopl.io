@@ -13,13 +13,13 @@ import (
 )
 
 func main() {
-	a := "123"
+	a := "222"
 	s, sep := "", ""
 	for _, arg := range os.Args[1:] {
 		s += sep + arg
 		sep = " "
 	}
-	fmt.Println(s+a)
+	fmt.Println(s + a)
 }
 
 //!-
