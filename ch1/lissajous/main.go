@@ -16,6 +16,7 @@ import (
 	"math"
 	"math/rand"
 	"os"
+	"strconv"
 )
 
 //!-main
@@ -28,11 +29,14 @@ import (
 
 //!+main
 
-var palette = []color.Color{color.White, color.Black}
+var palette = []color.Color{color.White, color.Black, color.RGBA{R: 0xff}, color.RGBA{G: 0xff}, color.RGBA{B: 0xff}}
 
 const (
 	whiteIndex = 0 // first color in palette
 	blackIndex = 1 // next color in palette
+	redIndex   = 2 // next color in palette
+	greenIndex = 3 // next color in palette
+	blueIndex  = 4 // next color in palette
 )
 
 func main() {
@@ -45,7 +49,19 @@ func main() {
 	if len(os.Args) > 1 && os.Args[1] == "web" {
 		//!+http
 		handler := func(w http.ResponseWriter, r *http.Request) {
-			lissajous(w)
+			cycle := 5
+			if err := r.ParseForm(); err != nil {
+				log.Print(err)
+			}
+			for k, v := range r.Form {
+				//				fmt.Fprintf(w, "Form[%q] = %q\n", k, v)
+				//				fmt.Println(k)
+				//				fmt.Println(v)
+				if k == "cycle" {
+					cycle, _ = strconv.Atoi(v[0])
+				}
+			}
+			lissajous(w, cycle)
 		}
 		http.HandleFunc("/", handler)
 		//!-http
@@ -53,17 +69,18 @@ func main() {
 		return
 	}
 	//!+main
-	lissajous(os.Stdout)
+	lissajous(os.Stdout, 5)
 }
 
-func lissajous(out io.Writer) {
+func lissajous(out io.Writer, cycle int) {
 	const (
-		cycles  = 5     // number of complete x oscillator revolutions
+		//cycles        //number of complete x oscillator revolutions
 		res     = 0.001 // angular resolution
 		size    = 100   // image canvas covers [-size..+size]
 		nframes = 64    // number of animation frames
 		delay   = 8     // delay between frames in 10ms units
 	)
+	var cycles = float64(cycle)
 	freq := rand.Float64() * 3.0 // relative frequency of y oscillator
 	anim := gif.GIF{LoopCount: nframes}
 	phase := 0.0 // phase difference
@@ -73,8 +90,9 @@ func lissajous(out io.Writer) {
 		for t := 0.0; t < cycles*2*math.Pi; t += res {
 			x := math.Sin(t)
 			y := math.Sin(t*freq + phase)
+			index := uint8(i % 5)
 			img.SetColorIndex(size+int(x*size+0.5), size+int(y*size+0.5),
-				blackIndex)
+				index)
 		}
 		phase += 0.1
 		anim.Delay = append(anim.Delay, delay)
