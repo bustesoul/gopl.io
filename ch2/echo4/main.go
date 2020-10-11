@@ -13,8 +13,8 @@ import (
 	"strings"
 )
 
-var n = flag.Bool("n", false, "omit trailing newline")
-var sep = flag.String("s", " ", "separator")
+var n = flag.Bool("n", false, "omit trailing newline") //if use -n ,it become true OR use -n=false make it false
+var sep = flag.String("s", ",", "separator")
 
 func main() {
 	flag.Parse()
@@ -22,6 +22,7 @@ func main() {
 	if !*n {
 		fmt.Println()
 	}
+	fmt.Println(*n)
 }
 
 //!-
