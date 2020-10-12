@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f299949e-7c61-479a-84a3-819059876377" name="Default Changelist" comment="2222">
+      <change afterPath="$PROJECT_DIR$/ch3_surface.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/basename1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/basename1/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9478e7f7d897bff7cb3ca9fbb76d81d81d78ec1f" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1ido39BByXzvxxqJ86LEuERctY3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/buste/gopl.io/ch3/surface">
+    <configuration name="go build github.com/buste/gopl.io/ch1/echo1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gopl.io" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/ch1/echo1/main.go" />
+      <package value="github.com/buste/gopl.io/ch1/echo1" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/buste/gopl.io/ch3/surface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gopl.io" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/ch3/surface/main.go" />
+      <package value="github.com/buste/gopl.io/ch3/surface" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/buste/gopl.io/ch3/surface" />
+        <item itemvalue="Go Build.go build github.com/buste/gopl.io/ch1/echo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init all" />
+    <MESSAGE value="2222" />
+    <MESSAGE value="Revert &quot;2222&quot;&#10;&#10;This reverts commit 75e04df0" />
+    <MESSAGE value="Win init" />
+    <MESSAGE value="2020.10.10 homework ch1" />
+    <MESSAGE value="ch2 work" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch2 work" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602322899532">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="310" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.960@0.0.1707.960" timestamp="1602322899532" />
+    <state x="421" y="45" key="CommitChangelistDialog2" timestamp="1602247350982">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="421" y="45" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1602247350982" />
+    <state x="94" y="94" width="1519" height="772" key="DiffContextDialog" timestamp="1602247454661">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="94" y="94" width="1519" height="772" key="DiffContextDialog/0.0.1707.960@0.0.1707.960" timestamp="1602247454661" />
+    <state x="635" y="222" key="FileChooserDialogImpl" timestamp="1602343734182">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="635" y="222" key="FileChooserDialogImpl/0.0.1707.960@0.0.1707.960" timestamp="1602343734182" />
+    <state width="1662" height="255" key="GridCell.Tab.0.bottom" timestamp="1602426444445">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1662" height="255" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1602426444445" />
+    <state width="1662" height="255" key="GridCell.Tab.0.center" timestamp="1602426444445">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1662" height="255" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1602426444445" />
+    <state width="1662" height="255" key="GridCell.Tab.0.left" timestamp="1602426444445">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1662" height="255" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1602426444445" />
+    <state width="1662" height="255" key="GridCell.Tab.0.right" timestamp="1602426444445">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1662" height="255" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1602426444445" />
+    <state x="165" y="78" key="MergeDialog" timestamp="1602247144010">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="165" y="78" key="MergeDialog/0.0.1707.960@0.0.1707.960" timestamp="1602247144010" />
+    <state x="599" y="182" key="RollbackChangesDialog" timestamp="1602246783773">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="599" y="182" key="RollbackChangesDialog/0.0.1707.960@0.0.1707.960" timestamp="1602246783773" />
+    <state x="356" y="125" key="SettingsEditor" timestamp="1602408247789">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="356" y="125" key="SettingsEditor/0.0.1707.960@0.0.1707.960" timestamp="1602408247789" />
+    <state x="447" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602408252408">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="447" y="213" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1602408252408" />
+    <state x="661" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602247175079">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="661" y="393" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.960@0.0.1707.960" timestamp="1602247175079" />
+    <state x="595" y="192" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602247139296">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="595" y="192" key="git4idea.branch.GitSmartOperationDialog/0.0.1707.960@0.0.1707.960" timestamp="1602247139296" />
+  </component>
+</project>

@@ -1,0 +1,24 @@
+Index: ch1/echo2/main.go
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.\r\n// License: https://creativecommons.org/licenses/by-nc-sa/4.0/\r\n\r\n// See page 6.\r\n//!+\r\n\r\n// Echo2 prints its command-line arguments.\r\npackage main\r\n\r\nimport (\r\n\t\"fmt\"\r\n\t\"os\"\r\n)\r\n\r\nfunc main() {\r\n\ta := \"222\"\r\n\ts, sep := \"\", \"\"\r\n\tfor _, arg := range os.Args[1:] {\r\n\t\ts += sep + arg\r\n\t\tsep = \" \"\r\n\t}\r\n\tfmt.Println(s + a)\r\n}\r\n\r\n//!-\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ch1/echo2/main.go	(revision 57c164118a54e5d00df3aae5301471fa617ea9dd)
++++ ch1/echo2/main.go	(date 1602246924283)
+@@ -13,13 +13,12 @@
+ )
+ 
+ func main() {
+-	a := "222"
+ 	s, sep := "", ""
+ 	for _, arg := range os.Args[1:] {
+ 		s += sep + arg
+ 		sep = " "
+ 	}
+-	fmt.Println(s + a)
++	fmt.Println(s)
+ }
+ 
+ //!-
